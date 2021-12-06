@@ -1,0 +1,178 @@
+body{
+    font-family: Poppins;
+}
+
+.vizija{
+    display: flex;
+    justify-content: center;
+    margin-top:10vh;
+}
+
+.vizija button a{
+    text-decoration: none;
+    color:white;
+    font-family: Poppins;
+    font-size:20px;
+    
+}
+
+.vizija button{
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:50px;
+    width:200px;
+    outline: none;
+    border:none;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.zivotopis{
+    display: flex;
+    justify-content: center;
+}
+
+.zivotopis h1{
+    font-style: italic;
+}
+
+
+
+.img-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.opis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#nare-opis{
+    width:20%;
+    text-align: justify;
+    margin-left:15vh;
+    font-weight: bold;
+}
+
+#zyla-opis{
+    width:20%;
+    text-align: justify;
+    font-weight: bold;
+    
+}
+
+.o-projektu{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.o-projektu button{
+
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:50px;
+    width:200px;
+    outline: none;
+    border:none;
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size:20px;
+    
+}
+
+.oPis{
+    
+   display: flex;
+   justify-content: center;
+}
+
+.oPis p{
+    width:60%;
+    font-size:20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.tehnologije{
+    display: flex;
+    justify-content: center;
+}
+
+.tehnologije button{
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:50px;
+    width:200px;
+    outline: none;
+    border:none;
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size:20px;
+}
+
+.slike-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#html{
+    margin-bottom: 30px;
+}
+
+
+#css{
+    margin-bottom: 30px;
+}
+
+.motivacija{
+    display: flex;
+    justify-content: center;
+}
+
+.motivacija button{
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:50px;
+    width:200px;
+    outline: none;
+    border:none;
+    border-radius: 0px 10px 0px 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size:20px;
+}
+
+.opis-m{
+    display: flex;
+    justify-content: center;
+}
+
+.opis-m p{
+    width:60%;
+    font-size:20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+hr{
+    width:80%;
+    border:1px solid grey;
+}
